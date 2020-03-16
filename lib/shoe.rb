@@ -15,6 +15,8 @@ class Shoe
   attr_writer :size
   attr_reader :material
   attr_writer :material
+  attr_reader :condition
+  attr_writer :condition
   
   def turn_page
     puts "Flipping the page...wow, you read fast!"
