@@ -18,8 +18,9 @@ class Shoe
   attr_reader :condition
   attr_writer :condition
   
-  def turn_page
-    puts "Flipping the page...wow, you read fast!"
+  def cobble
+    puts "The shoe has been repaired!"
+    @condition = new
   end
   
 end
