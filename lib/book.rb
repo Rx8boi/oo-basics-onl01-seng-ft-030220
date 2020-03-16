@@ -8,6 +8,11 @@ class Book
   def title
     @title
   end
+  
+  stt
+  
+  
+  
 end
 
 
