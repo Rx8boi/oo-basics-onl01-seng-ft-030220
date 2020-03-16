@@ -11,7 +11,10 @@ class Book
   
   attr_reader :author
   attr_writer :author
-  
+  attr_reader :page_count
+  attr_writer :page_count
+  attr_reader :genre
+  attr_writer :genre
   
   
 end
